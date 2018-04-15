@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>Vehicle Price Prediction App</title>
+
+<style>
+body {
+    background-color: powderblue;
+}
+<body>
+
+</style>
+
+<form action = "/getprice" method="POST">
+<p> Enter Vehicle Make:<input name="vmake" type ="text" /> </p>
+<p> Enter Vehicle Model: <input name="vmodel" type ="text" /> </p>
+<p> Enter Vehicle Year:<input name="year" type ="text" /> </p>
+<p><input class="button" type ="submit" value="Predict" /></p>
+</form>
+<hr>
+{% block content %}{% endblock %}
+</body>
+</html>
